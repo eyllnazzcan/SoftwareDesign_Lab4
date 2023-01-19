@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'eyl-ozc-iskfu'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7481AF9829C641CDBF5FF37606B5D912 }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .
